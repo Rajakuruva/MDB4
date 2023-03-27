@@ -1,0 +1,59 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>MDB4</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/mdb.css' %}">
+</head>
+<body class="bg-success">
+    <h1 class="h1 text-light">Classical Dance</h1>
+
+    <div class="container-fluid ">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h1 class="text-danger">Bharatanatyam</h1>
+                    </div>
+                    <div class="card-body">
+                        <img src="{% static 'images/SPP.jpg' %}" class="img-fluid" alt="">
+                        <p>
+                            Welcome to Classical Dance.<br>
+                            This is Bharatanatyam style of portion
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn bg-success text-light">Classic</button>
+                        <button class="btn bg-success text-light">Tradition</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        <h1 class="text-danger">Kuchipudi</h1>
+                    </div>
+                    <div class="card-body">
+                        <img src="{% static 'images/SP.jpg' %}" class="img-fluid" alt="">
+                        <p>
+                            Welcome to Classical Dance.<br>
+                            This is Kuchipudi style of portion  
+                        </p>
+                    </div>
+                    <div class="card-footer">
+                        <button class="btn bg-success text-light">Classic</button>
+                        <button class="btn bg-success text-light">Tradition</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/mdb.js' %}"></script>
+    <script src="{% static 'js/jquery.js' %}"></script>
+    <script src="{% static 'js/popper.js' %}"></script>
+</body> 
+</html>
